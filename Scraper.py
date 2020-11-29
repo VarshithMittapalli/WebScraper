@@ -12,7 +12,7 @@ class Scraper:
         self.url = url
 
     def open_browser(self):
-        driver = webdriver.Chrome("E:\python\Drivers\chromedriver_win32\chromedriver.exe")  #full path of your downloaded webdriver
+        driver = webdriver.Chrome("E:\\python\\Drivers\\chromedriver_win32\\chromedriver.exe")  #full path of your downloaded webdriver
         driver.get(self.url)
         driver.find_element_by_class_name('_34RNph').click()
         time.sleep(3)
