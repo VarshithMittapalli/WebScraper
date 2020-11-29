@@ -1,0 +1,7 @@
+pip install SpeechRecognition
+pip install pipwin
+pipwin install pyaudio
+pip install requests
+pip install bs4
+pip install selenium
+download webdriver for your respective browser
